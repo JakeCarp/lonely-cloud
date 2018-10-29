@@ -1,3 +1,81 @@
+@font-face {
+  font-family: "alien-encounters";
+  src:url(/assets/Alien-Encounters-Regular.ttf);
+}
+.section-title {
+  font-family: "alien-encounters";
+  font-size: 5vh;
+}
 .nav-bg {
-  background-image: linear-gradient(to right, aqua,rgb(255, 121, 143));
+  background-image: url(/assets/print_original.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 3rem;
+  min-width: 100%;
+  border:5px solid black;
+}
+.nav-bar-links {
+  justify-content:space-between;
+}
+.top-nav-links {
+  color: black;
+}
+.top-nav-links:hover {
+  color:black;
+}
+.title {
+  font-family: a
+}
+.content {
+  font-family:'Times New Roman', Times, serif;
+  font-size:1.5rem;
+}
+.copy-icon {
+  font-size:1rem;
+}
+.best-sellers {
+  min-height: 65vh;
+}
+.best-seller-alpha {
+  background-image: url(http://placehold.it/1000x1000);
+  background-size:cover;
+  background-position:center;
+  border:5px solid black;
+}
+.best-seller-beta {
+   background-image: url(http://placehold.it/1000x1000);
+  background-size:cover;
+  background-position:center;
+  border: 5px solid black;
+}
+.main-bg {
+  background-image: linear-gradient(to bottom right, aqua, rgb(255, 78, 107));
+}
+.best-seller-space {
+ background-image: url(/assets/chris-liverani-597302-unsplash.jpg);
+ background-size:cover;
+ background-position: center;
+}
+.filler-image-alpha {
+  background-image: url(/assets/daniel-monteiro-313651-unsplash.jpg);
+  background-size:cover;
+  background-position: top;
+}
+.filler {
+  min-height:80vh;
+}
+.section-start {
+  justify-content:center;
+  border:5px solid black
+}
+.catagories {
+  background-image: url(http://placehold.it/1000x1000);
+  background-size: cover;
+  background-position: center;
+  border:5px solid black;
+}
+.sections{
+  justify-content:space-around;
+  justify-items:center;
+  min-height: 80vh;
 }
